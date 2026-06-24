@@ -1,0 +1,10 @@
+# Loop Cut Test
+# 1. Create a plane with 4x4 segments (25 verts, 16 quads)
+plane 4 4
+# 2. Loop cut using interior edge (6,7) in the second column
+# Creates a vertical edge ring through the mesh
+loopcut 6 7
+# 3. Wireframe to see the cut
+wire
+# 4. Save result
+save test_loopcut.obj

@@ -1,0 +1,3 @@
+cube
+save test_cube.obj
+quit

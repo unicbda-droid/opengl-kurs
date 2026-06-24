@@ -1,0 +1,17 @@
+build/
+.vs/
+__pycache__/
+*.exe
+*.pdb
+*.ilk
+*.obj
+*.dll
+*.lib
+*.exp
+*.user
+*.suo
+*.sln
+*.vcxproj*
+*.pyc
+.DS_Store
+Thumbs.db

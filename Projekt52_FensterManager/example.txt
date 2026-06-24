@@ -1,0 +1,19 @@
+# Demo-Script fuer Projekt52
+# Leere Zeilen und # werden ignoriert
+
+# Ersten Wuerfel erstellen
+cube
+pos -3 0 0
+scale 0.8
+
+# Zweiten Wuerfel erstellen und subdividen
+cube
+pos 0 0 0
+subdivide
+
+# Ebene erstellen
+plane 3 3
+pos 3 0 0
+
+# Alle Objekte anzeigen
+list
